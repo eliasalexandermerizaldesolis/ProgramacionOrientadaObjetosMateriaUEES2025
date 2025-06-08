@@ -56,7 +56,8 @@ public class Main {
                         if (imcImpreso > 39.9) {
                             imcCategoria = 5;
                         } else {
-                            imcCategoria = 6; // Cambiar a 6 para "bajo peso" y remover 'int'
+                            imcCategoria = 6;
+                            // Cambiar a 6 para "bajo peso" y remover 'int'
                         }
                     }
                 }

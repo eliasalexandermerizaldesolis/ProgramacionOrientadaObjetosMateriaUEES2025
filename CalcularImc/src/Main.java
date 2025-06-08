@@ -2,16 +2,17 @@ public class Main {
     public static double calcularIMC(int pesoEnKilos, int estaturaEnCentimetros) {
          /*
         Calcula el Índice de Masa Corporal (IMC) utilizando:
-        - pesoEnKilos: peso en kilogramos (valor entero)
-        - estaturaEnCentimetros: altura en centímetros (valor entero)
-        
+        pesoEnKilos - valor entero
+        estaturaEnCentimetros - valor entero
+
         Fórmula:
         IMC = peso (kg) / (altura (m))^2
-        
-        Conversión:
+
         Convertimos centímetros a metros (1 metro = 100 cm)
-        Tomamos en consideracion la conversion de enteros a decimales.
-        */
+﻿
+        Tomamos en consideracion
+        ﻿la conversion de enteros a decimales.
+        * */
         int exponenteCuadratico = 2;
         int tasaDeCambioCentimetrosMetros = 100;
         double estaturaEnMetros = (double) estaturaEnCentimetros / tasaDeCambioCentimetrosMetros;
